@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div>
+		<form method="post" class="form-container">
+			<label for="name">Name</label>
+			<input type="text" id="name" placeholder="Name" required>
+			<label for="email">Email</label>
+			<input type="email" id="email" placeholder="Email" required>
+			<div>
+				<label>Gender</label>
+				<input type="radio" id="gender_f" name="gender" required>
+				<label for="gender_f">Female</label>
+				<input type="radio" id="gender_m" name="gender" required>
+				<label for="gender_m">Male</label>
+			</div>
+			<label for="Cars">Car Brands</label>
+			<select id="cars">
+				<option value="choose">Please Choose an option</option>
+				<option value="volvo">Volvo</option>
+				<option value="audi">Audi</option>
+				<option value="mercedes">Mercedes</option>
+				<option value="mahindra">Mahindra</option>
+			</select>
+			<label for="age">Age</label>
+			<input type="number" id="age" placeholder="Age" required>
+			<label for="dob">DOB</label>
+			<input type="date" id="dob" required>
+			<label for="tel">Phone Number</label>
+			<input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
+			<label for="password">Password</label>
+			<input type="password" id="password" placeholder="Password" required>
+			<div class="checkbox-container">
+				<label for="tos">I agree to the TOS</label>
+				<input type="checkbox" id="tos" required>
+			</div>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+	<script type="text/javascript" src="./script.js">
+	</script>
+
+</body>
+
+</html>
